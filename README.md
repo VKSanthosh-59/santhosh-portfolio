@@ -1,4 +1,4 @@
-# Santhosh V K — Personal Portfolio
+# Santhosh
 
 Personal portfolio website for a Data Scientist / Analyst job seeker.
 
