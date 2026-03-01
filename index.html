@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Santhosh — Data Scientist & Analyst</title>
+  <meta name="description" content="Portfolio of Santhosh V K — Master of Data Science graduate from UWA, specializing in ML pipelines, ETL workflows, and interactive dashboards." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Ambient glow blobs -->
+  <div class="ambient" aria-hidden="true">
+    <div class="blob blob--green"></div>
+    <div class="blob blob--purple"></div>
+    <div class="blob blob--yellow"></div>
+  </div>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a class="navbar__logo" href="#hero">santhosh<span class="navbar__dot">.</span></a>
+
+      <nav class="navbar__links" id="navLinks" aria-label="Primary navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile dropdown -->
+    <div class="navbar__mobile" id="mobileMenu" aria-hidden="true">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <div class="hero__badge animate-fadeDown">
+          <span class="pulse-dot"></span>
+          Open to Opportunities
+        </div>
+
+        <h1 class="hero__heading animate-fadeUp" style="--delay:0.1s">
+          Data Science<br>
+          <span class="gradient-text">&amp; Analytics</span>
+        </h1>
+
+        <p class="hero__subtitle animate-fadeUp" style="--delay:0.2s">
+          MSc Data Science grad from UWA. I build ML models, data pipelines, and dashboards
+          that make messy data actually useful to the people who need it.
+        </p>
+
+        <div class="hero__actions animate-fadeUp" style="--delay:0.3s">
+          <a href="mailto:vksanthosh59@gmail.com" class="btn btn--primary">Get in Touch</a>
+          <a href="https://www.linkedin.com/in/santhosh-v-k-b671241ab/" target="_blank" rel="noopener" class="btn btn--outline">LinkedIn →</a>
+          <a href="https://github.com/VKSanthosh-59" target="_blank" rel="noopener" class="btn btn--outline">GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SKILLS BENTO
+    ============================================================ -->
+    <section class="section skills" id="skills">
+      <div class="section__inner">
+        <p class="section__label fade-up">// Toolkit</p>
+        <h2 class="section__title fade-up">What I work with</h2>
+
+        <div class="bento" role="list">
+
+          <!-- ML & AI — spans 2 cols -->
+          <div class="bento__card bento__card--wide spotlight-card" role="listitem" data-accent="green">
+            <div class="bento__icon">🧠</div>
+            <h3 class="bento__heading">ML &amp; AI</h3>
+            <ul class="tag-list">
+              <li class="tag tag--green">Machine Learning</li>
+              <li class="tag tag--green">Deep Learning</li>
+              <li class="tag tag--green">TensorFlow</li>
+              <li class="tag tag--green">PyTorch</li>
+              <li class="tag tag--green">Scikit-learn</li>
+              <li class="tag tag--green">XGBoost</li>
+              <li class="tag tag--green">LightGBM</li>
+              <li class="tag tag--green">SHAP</li>
+              <li class="tag tag--green">SMOTE</li>
+              <li class="tag tag--green">NLP</li>
+              <li class="tag tag--green">LLM Fine-Tuning</li>
+              <li class="tag tag--green">Large Language Models</li>
+              <li class="tag tag--green">Generative AI</li>
+              <li class="tag tag--green">RAG</li>
+              <li class="tag tag--green">LangChain</li>
+              <li class="tag tag--green">Prompt Engineering</li>
+              <li class="tag tag--green">Vector Databases</li>
+            </ul>
+          </div>
+
+          <!-- Visualization & BI -->
+          <div class="bento__card spotlight-card" role="listitem" data-accent="purple">
+            <div class="bento__icon">📊</div>
+            <h3 class="bento__heading">Visualization &amp; BI</h3>
+            <ul class="tag-list">
+              <li class="tag tag--purple">Power BI</li>
+              <li class="tag tag--purple">Tableau</li>
+              <li class="tag tag--purple">Plotly</li>
+              <li class="tag tag--purple">Matplotlib</li>
+              <li class="tag tag--purple">Seaborn</li>
+              <li class="tag tag--purple">Microsoft Excel</li>
+            </ul>
+          </div>
+
+          <!-- Data Engineering -->
+          <div class="bento__card spotlight-card" role="listitem" data-accent="yellow">
+            <div class="bento__icon">⚙️</div>
+            <h3 class="bento__heading">Data Engineering</h3>
+            <ul class="tag-list">
+              <li class="tag tag--yellow">ETL Pipelines</li>
+              <li class="tag tag--yellow">SQL</li>
+              <li class="tag tag--yellow">PostgreSQL</li>
+              <li class="tag tag--yellow">MySQL</li>
+              <li class="tag tag--yellow">FastAPI</li>
+              <li class="tag tag--yellow">Flask</li>
+              <li class="tag tag--yellow">Docker</li>
+              <li class="tag tag--yellow">Git</li>
+              <li class="tag tag--yellow">NumPy</li>
+              <li class="tag tag--yellow">pandas</li>
+            </ul>
+          </div>
+
+          <!-- Cloud & DevOps -->
+          <div class="bento__card spotlight-card" role="listitem" data-accent="green">
+            <div class="bento__icon">☁️</div>
+            <h3 class="bento__heading">Cloud &amp; DevOps</h3>
+            <ul class="tag-list">
+              <li class="tag tag--green">AWS</li>
+              <li class="tag tag--green">Azure</li>
+              <li class="tag tag--green">Docker</li>
+              <li class="tag tag--green">MLOps</li>
+              <li class="tag tag--green">Linux</li>
+            </ul>
+          </div>
+
+          <!-- Analytics & Statistics -->
+          <div class="bento__card spotlight-card" role="listitem" data-accent="purple">
+            <div class="bento__icon">🔬</div>
+            <h3 class="bento__heading">Analytics &amp; Statistics</h3>
+            <ul class="tag-list">
+              <li class="tag tag--purple">Python</li>
+              <li class="tag tag--purple">R</li>
+              <li class="tag tag--purple">Statistical Data Analysis</li>
+              <li class="tag tag--purple">A/B Testing</li>
+              <li class="tag tag--purple">EDA</li>
+              <li class="tag tag--purple">Cohort Analysis</li>
+              <li class="tag tag--purple">PCA</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EXPERIENCE TIMELINE
+    ============================================================ -->
+    <section class="section experience" id="experience">
+      <div class="section__inner">
+        <p class="section__label fade-up">// Experience</p>
+        <h2 class="section__title fade-up">Where I've contributed</h2>
+
+        <div class="timeline">
+
+          <article class="timeline__item fade-up">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content spotlight-card">
+              <div class="timeline__meta">
+                <span class="timeline__period">Feb 2025 – May 2025</span>
+                <span class="timeline__location">Perth, Australia</span>
+              </div>
+              <h3 class="timeline__role">Research Intern</h3>
+              <p class="timeline__org">COTA WA <span class="timeline__org-divider">·</span> Council on the Ageing WA</p>
+              <ul class="timeline__bullets">
+                <li>Built Power BI dashboards to highlight aged-care service gaps across WA, covering data for 300,000+ residents.</li>
+                <li>Wrangled data from 50+ different sources and wrote ETL pipelines to keep it clean and consistent.</li>
+                <li>Wrote a 25-page research report with statistical analysis and policy recommendations for WA government.</li>
+                <li>Walked stakeholders through the findings and helped turn the numbers into practical next steps.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline__item fade-up">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content spotlight-card">
+              <div class="timeline__meta">
+                <span class="timeline__period">Jun 2023 – Dec 2023</span>
+                <span class="timeline__location">Chennai, India</span>
+              </div>
+              <h3 class="timeline__role">Data Analyst Intern</h3>
+              <p class="timeline__org">Dineocode</p>
+              <ul class="timeline__bullets">
+                <li>Built a restaurant recommendation model that pushed repeat orders up by 22%.</li>
+                <li>Created real-time KPI dashboards that the sales and delivery teams relied on for daily decisions.</li>
+                <li>Ran A/B tests on product features and fed the results back into UX decisions.</li>
+                <li>Automated data ingestion and transformation pipelines, cutting manual processing time by 40%.</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS GRID
+    ============================================================ -->
+    <section class="section projects" id="projects">
+      <div class="section__inner">
+        <p class="section__label fade-up">// Projects</p>
+        <h2 class="section__title fade-up">Selected work</h2>
+
+        <div class="projects__grid">
+
+          <article class="project-card spotlight-card fade-up" data-accent="green">
+            <div class="project-card__header">
+              <div class="project-card__metric project-card__metric--green">Sub-second response · 100K+ records</div>
+            </div>
+            <h3 class="project-card__title">Geospatial Analytics Platform</h3>
+            <p class="project-card__client">Geological Survey of Western Australia</p>
+            <p class="project-card__desc">
+              Built for the Geological Survey of WA to browse 100,000+ geochemical records on a map.
+              Python and FastAPI on the backend, React and TypeScript on the front, Plotly.js for the visuals.
+              Spatial indexing keeps queries under a second.
+            </p>
+            <ul class="tag-list">
+              <li class="tag tag--green">Python</li>
+              <li class="tag tag--green">FastAPI</li>
+              <li class="tag tag--green">React</li>
+              <li class="tag tag--green">TypeScript</li>
+              <li class="tag tag--green">Plotly.js</li>
+            </ul>
+          </article>
+
+          <article class="project-card spotlight-card fade-up" data-accent="purple">
+            <div class="project-card__header">
+              <div class="project-card__metric project-card__metric--purple">84% ROC-AUC · 7,000+ records</div>
+            </div>
+            <h3 class="project-card__title">Customer Churn Prediction Pipeline</h3>
+            <p class="project-card__client">End-to-end ML project</p>
+            <p class="project-card__desc">
+              Churn prediction model trained on 7,000+ customer records using LightGBM, with SMOTE to handle
+              class imbalance. SHAP explains each prediction, and the model is served through a Dockerized
+              FastAPI endpoint. Hit 84% ROC-AUC.
+            </p>
+            <ul class="tag-list">
+              <li class="tag tag--purple">LightGBM</li>
+              <li class="tag tag--purple">SHAP</li>
+              <li class="tag tag--purple">FastAPI</li>
+              <li class="tag tag--purple">Docker</li>
+              <li class="tag tag--purple">SMOTE</li>
+            </ul>
+          </article>
+
+          <!-- AutoAnalyst — full width -->
+          <article class="project-card project-card--wide spotlight-card fade-up" data-accent="yellow">
+            <div class="project-card__header">
+              <div class="project-card__metric project-card__metric--yellow">5 AI agents · Self-improving · RAG Q&amp;A</div>
+            </div>
+            <h3 class="project-card__title">AutoAnalyst: Autonomous AI Data Analysis Agent</h3>
+            <p class="project-card__client">Personal project</p>
+            <p class="project-card__desc">
+              Drop in a CSV and get back a full report with charts, stats, and recommendations. Five LangGraph
+              agents run in sequence: Profiler, Planner, Analyst, Critic, and Reporter. If the Critic scores
+              the analysis below 7/10, the Analyst goes back for another pass. Progress streams live to the
+              React/TypeScript frontend via SSE, and once the report is done, everything is stored in ChromaDB
+              so you can ask follow-up questions.
+            </p>
+            <ul class="tag-list">
+              <li class="tag tag--yellow">Python</li>
+              <li class="tag tag--yellow">LangGraph</li>
+              <li class="tag tag--yellow">Claude API</li>
+              <li class="tag tag--yellow">FastAPI</li>
+              <li class="tag tag--yellow">React</li>
+              <li class="tag tag--yellow">TypeScript</li>
+              <li class="tag tag--yellow">ChromaDB</li>
+              <li class="tag tag--yellow">RAG</li>
+              <li class="tag tag--yellow">Docker</li>
+              <li class="tag tag--yellow">SSE</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDUCATION
+    ============================================================ -->
+    <section class="section education" id="education">
+      <div class="section__inner">
+        <p class="section__label fade-up">// Education</p>
+        <h2 class="section__title fade-up">Academic background</h2>
+
+        <div class="edu__grid">
+
+          <article class="edu-card spotlight-card fade-up" data-accent="green">
+            <div class="edu-card__icon">🎓</div>
+            <div class="edu-card__body">
+              <span class="edu-card__degree">MSc Data Science</span>
+              <span class="edu-card__uni">University of Western Australia</span>
+              <div class="edu-card__meta">
+                <span class="tag tag--green">GPA 5.8 / 7.0</span>
+                <span class="edu-card__period">Feb 2024 – Dec 2025</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="edu-card spotlight-card fade-up" data-accent="purple">
+            <div class="edu-card__icon">🔬</div>
+            <div class="edu-card__body">
+              <span class="edu-card__degree">BTech Bioinformatics</span>
+              <span class="edu-card__uni">SASTRA University</span>
+              <div class="edu-card__meta">
+                <span class="tag tag--purple">GPA 7.8 / 10.0</span>
+                <span class="edu-card__period">Jul 2019 – May 2023</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+    ============================================================ -->
+    <section class="section contact" id="contact">
+      <div class="section__inner contact__inner">
+        <p class="section__label fade-up">// Contact</p>
+        <h2 class="section__title fade-up">Ready to collaborate?</h2>
+        <p class="contact__subtitle fade-up">
+          Looking for Data Science and Analytics roles in Australia.
+          Happy to chat if you think there's a fit.
+        </p>
+
+        <div class="contact__links fade-up">
+
+          <a href="mailto:vksanthosh59@gmail.com" class="contact-link" aria-label="Send email">
+            <span class="contact-link__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </span>
+            <span class="contact-link__label">vksanthosh59@gmail.com</span>
+          </a>
+
+          <a href="tel:+61475097108" class="contact-link" aria-label="Call phone number">
+            <span class="contact-link__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12 19.79 19.79 0 0 1 1.08 3.4 2 2 0 0 1 3.07 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.17a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+            </span>
+            <span class="contact-link__label">+61 475 097 108</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/santhosh-v-k-b671241ab/" target="_blank" rel="noopener" class="contact-link" aria-label="LinkedIn profile">
+            <span class="contact-link__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
+            <span class="contact-link__label">LinkedIn</span>
+          </a>
+
+          <a href="https://github.com/VKSanthosh-59" target="_blank" rel="noopener" class="contact-link" aria-label="GitHub profile">
+            <span class="contact-link__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S9 17.44 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            </span>
+            <span class="contact-link__label">GitHub</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copy">© 2025 Santhosh &nbsp;·&nbsp; Built with purpose &nbsp;·&nbsp; Perth, Australia</p>
+
+    </div>
+  </footer>
+
+  <!-- Spotlight cursor overlay -->
+  <div class="spotlight" id="spotlight" aria-hidden="true"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
